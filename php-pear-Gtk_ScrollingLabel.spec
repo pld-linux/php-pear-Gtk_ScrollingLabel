@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          Gtk
-%define         _subclass       ScrollingLabel
+%define		_class		Gtk
+%define		_subclass	ScrollingLabel
 %define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
 
