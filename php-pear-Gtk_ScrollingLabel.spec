@@ -23,7 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This is a class to encapsulate the functionality needed for a
-scrolling gtk label. This class provides a simple, easy to understand
+scrolling GTK+ label. This class provides a simple, easy to understand
 API for setting up and controlling the label. It allows for the
 ability to scroll in either direction, start and stop the scroll,
 pause and unpause the scroll, get and set the text, and set display
