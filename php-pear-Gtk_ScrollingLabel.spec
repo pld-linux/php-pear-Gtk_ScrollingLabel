@@ -14,7 +14,7 @@ License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}%{_suf}.tgz
 # Source0-md5:	e77d7734079fce530958a1f31d697f93
-URL:		http://pear.php.net/package/Gtk_Scrollinglabel/
+URL:		http://pear.php.net/package/Gtk_ScrollingLabel/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
 BuildArch:	noarch
