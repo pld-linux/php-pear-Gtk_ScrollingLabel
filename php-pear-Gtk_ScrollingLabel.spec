@@ -26,14 +26,19 @@ scrolling gtk label. This class provides a simple, easy to understand
 API for setting up and controlling the label. It allows for the
 ability to scroll in either direction, start and stop the scroll,
 pause and unpause the scroll, get and set the text, and set display
-properites of the text.
+properties of the text.
 
 In PEAR status of this package is: %{_status}.
 
-#%description -l pl
-#...
-#
-#Ta klasa ma w PEAR status: %{_status}.
+%description -l pl
+Ta klasa zawiera funkcjonalno¶æ potrzebn± dla przewijaj±cej siê
+etykiety w GTK+. Dostarcza proste, ³atwe do zrozumienia API do
+ustawiania i kontrolowania etykiety. Daje mo¿liwo¶æ przewijania w
+dowolnym kierunku, w³±czania, wy³±czania, zatrzymywania i wznawiania
+przewijania, pobierania i ustawiania tekstu oraz ustawiania
+w³a¶ciwo¶ci wy¶wietlania tekstu.
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
