@@ -14,8 +14,7 @@ Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	408af13927cc3fad18505c75561dadc9
 URL:		http://pear.php.net/package/Gtk_ScrollingLabel/
-BuildRequires:	rpm-php-pearprov >= 4.4.2-11
-BuildRequires:	sed >= 4.0
+BuildRequires:	rpm-php-pearprov >= 4.4.2-12
 Requires:	php4-gtk
 Requires:	php-pear
 BuildArch:	noarch
