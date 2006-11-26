@@ -8,7 +8,7 @@ Summary:	%{_pearname} - A scrolling label for PHP-Gtk
 Summary(pl):	%{_pearname} - Przesuwaj±ca siê etykieta dla PHP-Gtk
 Name:		php-pear-%{_pearname}
 Version:	1.0.0
-Release:	3
+Release:	4
 Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
@@ -18,7 +18,7 @@ URL:		http://pear.php.net/package/Gtk_ScrollingLabel/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-12
 BuildRequires:	rpmbuild(macros) >= 1.300
-Requires:	php4-gtk
+Requires:	php(gtk)
 Requires:	php-pear
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
