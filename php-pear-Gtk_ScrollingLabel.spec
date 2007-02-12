@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - A scrolling label for PHP-Gtk
-Summary(pl):	%{_pearname} - Przesuwaj±ca siê etykieta dla PHP-Gtk
+Summary(pl.UTF-8):   %{_pearname} - PrzesuwajÄ…ca siÄ™ etykieta dla PHP-Gtk
 Name:		php-pear-%{_pearname}
 Version:	1.0.0
 Release:	4
@@ -33,19 +33,19 @@ properties of the text.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Ta klasa zawiera funkcjonalno¶æ potrzebn± dla przewijaj±cej siê
-etykiety w GTK+. Dostarcza proste, ³atwe do zrozumienia API do
-ustawiania i kontrolowania etykiety. Daje mo¿liwo¶æ przewijania w
-dowolnym kierunku, w³±czania, wy³±czania, zatrzymywania i wznawiania
+%description -l pl.UTF-8
+Ta klasa zawiera funkcjonalnoÅ›Ä‡ potrzebnÄ… dla przewijajÄ…cej siÄ™
+etykiety w GTK+. Dostarcza proste, Å‚atwe do zrozumienia API do
+ustawiania i kontrolowania etykiety. Daje moÅ¼liwoÅ›Ä‡ przewijania w
+dowolnym kierunku, wÅ‚Ä…czania, wyÅ‚Ä…czania, zatrzymywania i wznawiania
 przewijania, pobierania i ustawiania tekstu oraz ustawiania
-w³a¶ciwo¶ci wy¶wietlania tekstu.
+wÅ‚aÅ›ciwoÅ›ci wyÅ›wietlania tekstu.
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
@@ -54,7 +54,7 @@ AutoProv:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
