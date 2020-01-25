@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_class		Gtk
 %define		_subclass	ScrollingLabel
 %define		_status		stable
